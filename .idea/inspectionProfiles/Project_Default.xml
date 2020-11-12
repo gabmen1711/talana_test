@@ -1,0 +1,74 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="input" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="models.odm_crud_functions.db_odm_models" />
+          <option value="models.messages_methods.*" />
+          <option value="controllers.api.*" />
+          <option value="controllers.default.response" />
+          <option value="controllers.default.*" />
+          <option value="controllers.messages.*" />
+          <option value="controllers.organizations.response" />
+          <option value="controllers.organizations.request" />
+          <option value="controllers.persons.response" />
+          <option value="controllers.persons.request" />
+          <option value="controllers.threads.response" />
+          <option value="controllers.threads.request" />
+          <option value="controllers.comments.request" />
+          <option value="controllers.comments.response" />
+          <option value="controllers.comments.cors_allow" />
+          <option value="controllers.comments.myjwt" />
+          <option value="controllers.attachments.response" />
+          <option value="controllers.attachments.request" />
+          <option value="controllers.attachments.cors_allow" />
+          <option value="controllers.attachments.myjwt" />
+          <option value="controllers.user.request" />
+          <option value="controllers.user.myjwt" />
+          <option value="controllers.user.cors_allow" />
+          <option value="controllers.user.response" />
+          <option value="controllers.user.db_mysql" />
+          <option value="controllers.user.CrudMethods" />
+          <option value="controllers.user.check_if_active" />
+          <option value="controllers.user.auth" />
+          <option value="controllers.user.get_user_info" />
+          <option value="controllers.attachments.auth" />
+          <option value="controllers.comments.auth" />
+          <option value="controllers.custom_fields.myjwt" />
+          <option value="controllers.custom_fields.cors_allow" />
+          <option value="controllers.custom_fields.auth" />
+          <option value="controllers.custom_fields.request" />
+          <option value="controllers.custom_fields.response" />
+          <option value="controllers.members.cors_allow" />
+          <option value="controllers.members.myjwt" />
+          <option value="controllers.members.auth" />
+          <option value="controllers.members.request" />
+          <option value="controllers.members.response" />
+          <option value="test_utils" />
+          <option value="controllers.user.AccountSeats" />
+          <option value="controllers.user.UserAccounts" />
+          <option value="controllers.user.decrease_account_used_seat_count" />
+          <option value="controllers.user.decrease_account_seat_count" />
+          <option value="controllers.user.increase_account_seat_count" />
+          <option value="controllers.user.increase_account_used_seat_count" />
+          <option value="controllers.user.Accounts" />
+          <option value="controllers.activities.request" />
+          <option value="controllers.activities.response" />
+          <option value="telegram_bot.models.UsdMoneyAccount.objects" />
+          <option value="controllers.activities.cors_allow" />
+          <option value="controllers.activities.myjwt" />
+          <option value="controllers.activities.auth" />
+          <option value="activity_type" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
